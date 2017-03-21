@@ -2,8 +2,9 @@
 
 
 (function(){
-$('.carosoul').carosoul({
-    interval:false
+    
+$('.carousel').carousel({
+interval: false
 });
 
 
