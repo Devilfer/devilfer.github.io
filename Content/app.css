@@ -50,7 +50,6 @@ header .navbar-default .navbar-nav .active a {
 
 /* Navbar Brand*/
 header .navbar-brand{
-	background:url(../Assets/images/logo.png);
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: 15px -10px;;
@@ -65,12 +64,29 @@ header .navbar-brand h1 {
 	padding-left:35%;
 }
 
-header .navbar-brand span: ;.subhead{
+
+header .navbar-brand span.subhead{
+	display: block;	
 	font-family: "Roboto Slab", sans-serif;
 	font-size: .6em;
 	font-weight:100;
-	display: block;
 }
+
+/**		Navbar-Brand: 		;**/
+
+header .navbar-toggle{
+	background-color:#279182;
+}
+
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white; 
+}
+
+header .navbar-collapse{
+	background-color: rgba(0,0,0,.5);
+}
+
+header .navbar-default .navbar
 footer .navbar-default{
 	background: transparent;
 }
