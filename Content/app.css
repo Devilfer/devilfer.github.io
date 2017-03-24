@@ -12,9 +12,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family:100;
 	margin:0;
 }
-img {
-	max-width: 200px;
-}
+
 /* Header navigation*/
 
 header .navbar{
@@ -72,7 +70,7 @@ header .navbar-brand span.subhead{
 	font-weight:100;
 }
 
-/**		Navbar-Brand: 		;**/
+/**		Navbar-Brand:**/
 
 header .navbar-toggle{
 	background-color:#279182;
@@ -82,14 +80,15 @@ header .navbar-default .navbar-toggle .icon-bar{
 	background-color: white; 
 }
 
-header .navbar-collapse{
+@media only screen 
+and (max-width:768px){
+	header .navbar-collapse.in{
 	background-color: rgba(0,0,0,.5);
+	}
 }
 
-header .navbar-default .navbar
-footer .navbar-default{
-	background: transparent;
-}
+
+/*Page  --about*/
 
 .page{
 	padding:50px 0;
@@ -97,4 +96,81 @@ footer .navbar-default{
 .page h2 {
 	text-align: center;
 	margin: 30px;
+}
+
+/*	About Me*/
+#aboutMe{
+	background-color: #E4D29D;
+	background-image: linear-gradient(to botom,#EEF08A,#819A2D);
+	border-top:20px solid rgba(238,200,86,.5);
+}
+
+/*	Page Services*/
+
+.service{
+	margin:2
+	0px 0;
+	text-align: center;
+}
+
+#services img.icon{
+	display: block;
+	width:80px;
+	margin:0 auto;
+	margin-bottom: 5px;
+}
+
+
+#services h3{
+	margin-bottom: 10px;
+}
+
+@media only screen
+and (min-width:450px)
+and (max-width:768px){
+	.service p{
+		padding: 0 20%;
+
+	}
+}
+
+/* Projects*/
+#project{
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom,#EEF08A,#CDAE50 );
+}
+
+.developer{
+	margin:10px 0;
+}
+
+.developer h3 {
+	font-weight:600;
+	font-size:1.2em;
+	color:#6F4E36;
+	padding-bottom:5px;
+}
+.developer img{
+	max-width: 100px;
+}
+.developer p{
+	font-size: .8em;
+}
+
+@media only screen
+and (min-width:450px)
+and (max-width:768px){
+	.service p{
+		padding: 0 20%;
+
+	}
+}
+
+.doctor img{
+	width:100%;
+}
+
+/*Footer navigation*/
+footer .navbar-default{
+	background: transparent;
 }
