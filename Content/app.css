@@ -88,6 +88,20 @@ and (max-width:768px){
 }
 
 
+
+
+/* Nav In body*/
+
+header .inbody{
+	background: rgba(104, 73, 79, 0.9);
+}
+
+
+
+header .navbar .inbody{
+	padding-top: 0;
+	padding-bottom:0;
+}
 /*Page  --about*/
 
 .page{
@@ -245,6 +259,7 @@ and (max-width:768px){
   line-height: 120%;
 }
 
+
 #adventure .quote .places{
 	display: none;
 }
@@ -260,10 +275,51 @@ and (max-width:768px){
 
 #adventure .quote:hover .intro::after {
   content: '';
+
 }
 
 
 /*Footer navigation*/
+footer{
+background:#586D74;
+color:white;
+font-size:.8em;
+padding:20px 0 40px 0;
+}
+
+footer a {
+	color:#E0E6AE;
+}
+
+footer a:hover{
+	color:#EEC856 !important;
+}
+
+footer .phone{
+	font-size:1.4em;
+	font-weight:700;
+	color:#E0E6AE;
+}
+
+footer .navbar{
+	margin-bottom: 0;
+	min-height:0;
+}
+
+footer .navbar-default{
+	background-color: transparent;
+	border:none;
+	margin-right:40px;
+}
+
+footer .navbar-nav> li a {
+	padding-top:0;
+	padding-bottom:0;
+	text-decoration: underline;
+	color:#EEC856 !important;
+
+}
+
 footer .navbar-default{
 	background: transparent;
 }
